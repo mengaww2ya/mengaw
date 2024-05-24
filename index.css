@@ -1,0 +1,106 @@
+body {
+  color: black;
+  background:
+    url(images/dove2.png) repeat-x right,
+    url(images/download.jpeg) repeat-y right,
+    url(images/priz.png)  bottom repeat-y,
+    url(images/prise2.png)  center repeat,
+    url(images/ethi.png) repeat-y left;
+}
+
+h1 {
+  background: black;
+  color: white;
+}
+
+.introduction,
+.observation,
+.suggesion,
+.sumery {
+  width: 80vw;
+  background-color: rgb(55, 118, 129);
+  color: rgb(8, 23, 63);
+  font-size: x-large;
+  display: none;
+  margin: 0 15%;
+}
+
+.introduction,
+.observation,
+.suggesion,
+.sumery p {
+  padding: 3%;
+}
+
+.first_welcome {
+  font-size: 30px;
+  color: rgb(10, 10, 10);
+  background-color: rgb(61, 223, 245);
+  text-align: center;
+  width: 30%;
+  margin-left: 30%;
+}
+
+.top_div {
+  background-color: rgba(7, 7, 6, 0.26);
+  height: 10vh;
+}
+
+.top_div ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_div ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.top_div ul li a {
+  text-decoration: none;
+  font-size: 400%;
+}
+
+.top_div ul li a:hover {
+  background-color: rgb(97, 57, 209);
+  color: white;
+  cursor: pointer;
+}
+
+.firstContinuebutton {
+  margin-left: 70%;
+  font-weight: 400;
+  font-size: x-large;
+  background-color: rgb(142, 187, 20);
+  color: white;
+  cursor: pointer;
+}
+
+.continue_button {
+  margin-left: 70%;
+  font-weight: 400;
+  font-size: x-large;
+  background-color: rgb(18, 233, 65);
+  color: white;
+  cursor: pointer;
+}
+
+.back_button {
+  font-weight: 400;
+  font-size: x-large;
+  background-color: rgb(167, 189, 44);
+  color: white;
+  cursor: pointer;
+}
+
+.firstContinuebutton:hover {
+  background-color: red;
+}
+
+.back_button:hover {
+  background-color: red;
+}
+
+.continue_button:hover {
+  background-color: red;
+}
