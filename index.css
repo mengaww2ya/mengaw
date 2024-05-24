@@ -25,6 +25,13 @@ h1 {
   margin: 0 15%;
 }
 
+.introduction,
+.observation,
+.suggesion,
+.sumery p {
+  padding: 3%;
+}
+
 .first_welcome {
   font-size: 30px;
   color: rgb(10, 10, 10);
@@ -64,21 +71,36 @@ h1 {
   margin-left: 70%;
   font-weight: 400;
   font-size: x-large;
-  background-color: rgb(44, 54, 189);
+  background-color: rgb(142, 187, 20);
   color: white;
+  cursor: pointer;
 }
 
 .continue_button {
   margin-left: 70%;
   font-weight: 400;
   font-size: x-large;
-  background-color: rgb(44, 54, 189);
+  background-color: rgb(18, 233, 65);
   color: white;
+  cursor: pointer;
 }
 
 .back_button {
   font-weight: 400;
   font-size: x-large;
-  background-color: rgb(44, 54, 189);
+  background-color: rgb(167, 189, 44);
   color: white;
+  cursor: pointer;
+}
+
+.firstContinuebutton:hover {
+  background-color: red;
+}
+
+.back_button:hover {
+  background-color: red;
+}
+
+.continue_button:hover {
+  background-color: red;
 }
